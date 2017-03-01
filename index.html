@@ -3,43 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400|Montserrat:100,200,300,400|Open+Sans:300,400">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/mystyles.css">
-    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
+    
 <body>
 <div class="container">
-    <div class="row">
+    <header class="row">
         <div class="col-md-6">
             <img class="img-responsive title-logo" src="http://placehold.it/90x90" alt="logo">
         </div>
+        
         <div class="col-md-6 text-uppercase text-right">
             <h1 class="text-thin title-super">Jennica Guan</h1>
             <h3>Full-stack Ninja</h3>
         </div>
-    </div>
+    </header>
+    
     <div class="row">
         <div class="col-md-12">
             <hr>
         </div>
     </div>
-    <div class="row">
+    
+    <section class="row">
         <div class="col-md-12">
             <img class="img-responsive" src="http://placehold.it/1800x900" alt="main image"
                  data-toggle="modal" data-target="#project1">
         </div>
-    </div>
+    </section>
+    
     <div class="row">
         <div class="col-md-12 text-muted">
             <h2>Featured Work</h2>
         </div>
     </div>
-    <div class="row text-center">
+    
+    <section class="row text-center">
         <div class="col-md-4">
             <img class="img-responsive" src="http://placehold.it/600x300" alt="appify image">
             <h2 class="text-uppercase">Appify</h2>
@@ -57,7 +63,7 @@
             <h2 class="text-uppercase">Bokeh</h2>
             <a href="https://github.com/udacity/Bokeh">https://github.com/udacity/Bokeh</a>
         </div>
-    </div>
+    </section>
 </div>
 
 <!-- Modal -->
@@ -69,7 +75,9 @@
             </div>
             <div class="modal-body">
                 <img class="img-responsive" src="http://placehold.it/1000x500">
-                This was my first project in this class. I learned a lot about HTML and CSS.
+                <p>
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
