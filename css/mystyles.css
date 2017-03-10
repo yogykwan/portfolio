@@ -4,7 +4,7 @@ body {
     font-weight: 300;
 }
 
-hr {
+.line {
     border: 0;
     border-bottom: 4px solid #7d97ad;
 }
@@ -19,7 +19,7 @@ hr {
 }
 
 .title-super {
-    font-size: 50px
+    font-size: 50px;
 }
 
 .title-logo {
